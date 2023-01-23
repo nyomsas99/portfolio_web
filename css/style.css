@@ -14,9 +14,21 @@ body {
 
 .lead {
   color: #ff5500;
+  font-family: "Abril Fatface", cursive;
 }
 .jumbotron {
   padding-top: 2rem;
+}
+
+#jumbotron {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/gb3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -140px;
+  overflow: hidden;
+  position: relative;
 }
 section {
   padding-top: 5rem;
@@ -77,7 +89,6 @@ body.dark {
   color: rgb(116, 96, 134);
 }
 
-section,
 #about,
 #education,
 #skill,
