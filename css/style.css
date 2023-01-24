@@ -23,7 +23,7 @@ body {
 #jumbotron {
   height: 100%;
   width: 100%;
-  background-image: url(../img/gb3.jpg);
+  background-image: url(../img/gb2.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: 0 -140px;
@@ -91,12 +91,18 @@ body.dark {
 
 #about,
 #education,
-#skill,
 #galery,
 #contact {
   font-family: "Abril Fatface", cursive;
 }
 
+.skill {
+  font-family: "Abril Fatface", cursive;
+}
+section {
+  justify-content: center;
+  justify-items: center;
+}
 .social-panel-container {
   position: fixed;
   right: 0;
