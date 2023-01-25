@@ -29,6 +29,7 @@ body {
   background-position: 0 -140px;
   overflow: hidden;
   position: relative;
+  background-repeat: no-repeat;
 }
 section {
   padding-top: 5rem;
