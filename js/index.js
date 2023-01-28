@@ -1,3 +1,4 @@
+// darkmode
 const chk = document.getElementById("chk");
 const title = document.querySelector(".title");
 
